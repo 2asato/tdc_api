@@ -1,0 +1,57 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  positions: MyString
+  bats: MyString
+  throws: MyString
+  height: MyString
+  weight: 1
+  hometown: MyString
+  school: MyString
+  graduation_year: 1
+  gpa: 9.99
+  summer_team: MyString
+  college_interests: MyString
+  academic_interests: MyString
+  team_id: 1
+  number: 1
+  img: MyString
+  fastball: 1
+  breaking_ball: 1
+  changeup: 1
+  field_velo: 1
+  sixty_yd: 9.99
+  thirty_yd: 9.99
+  l_drill: 9.99
+  broad_jump: 1
+  med_ball: 1
+
+two:
+  first_name: MyString
+  last_name: MyString
+  positions: MyString
+  bats: MyString
+  throws: MyString
+  height: MyString
+  weight: 1
+  hometown: MyString
+  school: MyString
+  graduation_year: 1
+  gpa: 9.99
+  summer_team: MyString
+  college_interests: MyString
+  academic_interests: MyString
+  team_id: 1
+  number: 1
+  img: MyString
+  fastball: 1
+  breaking_ball: 1
+  changeup: 1
+  field_velo: 1
+  sixty_yd: 9.99
+  thirty_yd: 9.99
+  l_drill: 9.99
+  broad_jump: 1
+  med_ball: 1
