@@ -3,7 +3,7 @@ class PlayersController < ApplicationController
 
   # GET /players
   def index
-    @players = Player.all
+    @players = Player.where(team_id: params[:team_id])
 
     render json: @players
   end
@@ -16,9 +16,10 @@ class PlayersController < ApplicationController
   # POST /players
   def create
     @player = Player.new(player_params)
+    @player.team_id = params[:team_id]
 
     if @player.save
-      render json: @player, status: :created, location: @player
+      render json: @player, status: :created
     else
       render json: @player.errors, status: :unprocessable_entity
     end

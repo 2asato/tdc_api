@@ -10,6 +10,7 @@ class TeamsController < ApplicationController
 
   # GET /teams/1
   def show
+
     render json: @team
   end
 
