@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :alumnis
   root 'welcome#index'
   resources :players
   resources :teams do

@@ -23,3 +23,12 @@ Team.create([
 
     { first_name: "Logan", last_name: "Marshall-Inman", positions: "P, 1B", bats: "Right", throws: "Right", height: "6-3", weight: "180", hometown: "Edmonds, WA", school: "Kings HS", graduation_year: 2021, gpa: "3.0", summer_team: "Washington Rush", college_interests: "UW, UCLA, Stanford, Pepperdine", academic_interests: "Veterinary, Chiropractor", team_id: 1, number: 12, img: "http://i66.tinypic.com/2jb5yj5.jpg", field_velo: 68, fastball: 74, breaking_ball: 62, changeup: 68, sixty_yd: 8.23, thirty_yd: 4.43, l_drill: 8.29, broad_jump: 88, med_ball: 40, videos: "https://www.youtube.com/embed/JeQEIkSXWlk", videos2: "https://www.youtube.com/embed/Znvc9AIVk8I" }
   ])
+
+  20.times do
+    Alumni.create(
+    name: Faker::FunnyName.name,
+    grad_year: Faker::Number.between(2014, 2017),
+    college: Faker::University.name,
+
+    )
+  end
